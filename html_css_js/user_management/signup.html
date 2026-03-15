@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Signup — User Portal
+    </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,300;0,600;1,300&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="app">
+
+        <header class="topbar">
+            <div class="topbar-brand">
+            <div class="logo">UP</div>
+            <span class="brand-name">User Portal</span>
+            </div>
+            <nav class="nav">
+            <a href="login.html" class="nav-link">
+                Login
+            </a>
+            <a href="signup.html" class="nav-link active">
+                Sign Up
+            </a>
+            <a href="users.html" class="nav-link">
+                Users
+            </a>
+            </nav>
+        </header>
+<main class="auth">
+
+  <div class="auth-left">
+
+    <h1>Create Account</h1>
+    <p>Join the user portal to manage accounts.</p>
+
+    <ul class="info-list">
+      <li>Register new users</li>
+      <li>Secure authentication</li>
+      <li>View registered users</li>
+    </ul>
+
+  </div>
+
+
+  <div class="auth-right">
+
+    <div class="box">
+
+      <h2>Sign Up</h2>
+
+      <form class="form">
+
+        <div class="field">
+          <label class="label">Full Name</label>
+          <input type="text" class="input">
+        </div>
+
+        <div class="field">
+          <label class="label" required>Email</label>
+          <input type="email" class="input">
+        </div>
+
+        <div class="field">
+          <label class="label">Password</label>
+          <input type="password" class="input">
+        </div>
+
+        <div class="field">
+          <label class="label">Country</label>
+          <select class="input">
+            <option>India</option>
+            <option>USA</option>
+            <option>Canada</option>
+          </select>
+        </div>
+
+        <div class="field">
+          <label class="label">About</label>
+          <textarea class="input"></textarea>
+        </div>
+
+        <div class="field">
+          <label>
+            <input type="checkbox"> Accept Terms
+          </label>
+        </div>
+
+        <button class="btn">Create Account</button>
+
+      </form>
+
+    </div>
+
+  </div>
+
+</main>
+
+    </div>
+
+</body>
+</html>

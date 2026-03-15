@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Users — User Portal</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,300;0,600;1,300&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="app">
+
+  <header class="topbar">
+    <div class="topbar-brand">
+      <div class="logo">UP</div>
+      <span class="brand-name">User Portal</span>
+    </div>
+    <nav class="nav">
+      <a href="login.html" class="nav-link">
+        Login
+      </a>
+      <a href="signup.html" class="nav-link">
+        Sign Up
+      </a>
+      <a href="users.html" class="nav-link active">
+        Users
+      </a>
+    </nav>
+  </header>
+<main class="table-section">
+
+  <h1>Registered Users</h1>
+
+  <div class="table-box">
+    <table>
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Name</th>
+          <th>Email</th>
+          <th>Country</th>
+          <th>Status</th>
+        </tr>
+      </thead>
+      <tbody>
+
+        <tr>
+          <td>01</td>
+          <td>Rahul</td>
+          <td>rahul@email.com</td>
+          <td><span class="badge">India</span></td>
+          <td class="status">
+            <span class="dot active"></span>
+            Active
+          </td>
+        </tr>
+
+        <tr>
+          <td>02</td>
+          <td>Aisha</td>
+          <td>aisha@email.com</td>
+          <td><span class="badge">UAE</span></td>
+          <td class="status">
+            <span class="dot active"></span>
+            Active
+          </td>
+        </tr>
+
+        <tr>
+          <td>03</td>
+          <td>John</td>
+          <td>john@email.com</td>
+          <td><span class="badge">USA</span></td>
+          <td class="status">
+            <span class="dot"></span>
+            Inactive
+          </td>
+        </tr>
+
+      </tbody>
+
+    </table>
+
+  </div>
+
+</main>
+</div>
+
+</body>
+</html>
