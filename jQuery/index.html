@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery Fundamentals</title>
+    <link rel="stylesheet" href="style.css"></link>
+</head>
+<body>
+    <h1>JQuery Fundamentals</h1>
+    <p>This is a simple page to demonstrate jQuery basics.</p>
+    <br/>
+
+    <br/>
+    <hr>
+
+    <h3>Demonstration of hide method on the selected element itself(Using id selector)</h3>
+    <p id="hidemyself">Clicking on this line will hide the line itself</p>
+    <br/>
+    <br/>
+    <hr>
+    <div>
+        <h3>Demonstration of Element Selector </h3>
+        <p>This is under a div and will be hidden when you click on below button</p>
+    </div>
+    <button>
+        Hide Using Element Selector
+    </button>
+
+    <br/>
+
+    <br/>
+    <hr>
+
+    <h3>Demonstration of hide and show using Class Selector</h3>
+    <h5 class="hideme">Hide Text</h5>
+    <h5 class="showme">Show Text</h5>
+    <p id="ptohideshow">
+        Hide and show text by clicking as required.
+    </p>
+    <br/>
+    <br/>
+    <hr>
+    <h3>Toggle Example</h3>
+<button id="toggle">Toggle Text</button>
+<p id="toggletext">This text will toggle</p>
+<hr>
+        <h3>Fade Effect</h3>
+        <button id="fade">Fade Toggle</button>
+        <div id="fadebox" style="width:100px;height:100px;background:red;"></div>
+        <hr>
+    <h3>Slide Effect</h3>
+    <button id="slide">Slide Toggle</button>
+    <div id="slidebox" style="width:100px;height:100px;background:green;"></div>
+    <hr>
+<h3>CSS Manipulation</h3>
+<button id="cssbtn">Apply CSS</button>
+<p id="csstext">Watch my style change</p>
+<hr>
+<h3>Class Add/Remove</h3>
+<button id="addclassbtn">Add Class</button>
+<button id="removeclassbtn">Remove Class</button>
+<p id="classtext">Class will be applied here</p>
+
+<style>
+.highlight {
+    background: yellow;
+    color: red;
+}
+</style>
+<hr>
+    <h3>Text vs HTML</h3>
+    <button id="changetextbtn">Change Text</button>
+    <button id="changehtmlbtn">Change HTML</button>
+    <p id="textchange">Original Text</p>
+    <hr>
+    <h3>Input Value</h3>
+    <input type="text" id="inputfield" placeholder="Type something">
+    <button id="getvaluebtn">Get Value</button>
+    <hr>
+        <h3>Traversing</h3>
+    <div class="parent" style="padding:10px;">
+        <p class="child">Click me (child)</p>
+    </div>
+    <hr>
+
+<h3>Chaining</h3>
+<button id="chainbtn">Run Chain</button>
+<p id="chaintext">Chaining effect</p>
+<hr>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="app.js"></script>
+
+</body> 
+</html> 
