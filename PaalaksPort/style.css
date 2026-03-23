@@ -1,4 +1,3 @@
-/* VARIABLES */
 
 :root{
     --accent:#e0afa0;
@@ -6,7 +5,6 @@
 }
 
 
-/* RESET */
 
 *{
     padding:0;
@@ -16,7 +14,6 @@
 }
 
 
-/* BODY */
 
 body{
     background-color:#1e1e1e;
@@ -26,7 +23,6 @@ body{
 }
 
 
-/* MAIN GRID */
 
 .main-container{
     display:grid;
@@ -38,14 +34,11 @@ body{
 }
 
 
-/* SIDEBAR */
 
 .sidebar{
     height:90vh;
 
-    /* glass effect */
     background:rgba(42,42,42,0.6);
-    backdrop-filter:blur(12px);
 
     border:1px solid #3a3a3a;
     border-radius:16px;
@@ -56,7 +49,6 @@ body{
 }
 
 
-/* MAIN CONTENT */
 
 .main-content{
 
@@ -69,7 +61,6 @@ body{
 }
 
 
-/* PROFILE */
 
 .profile{
     text-align:center;
@@ -100,7 +91,6 @@ body{
 }
 
 
-/* CONTACT */
 
 .contact{
     margin-top:30px;
@@ -115,7 +105,6 @@ body{
 
 .value{
     color:var(--text);
-    text-decoration:none;
 }
 
 .email,.phone{
@@ -123,7 +112,6 @@ body{
 }
 
 
-/* SOCIAL */
 
 .social{
     margin-top:30px;
@@ -136,16 +124,10 @@ body{
     height:24px;
     width:24px;
     margin-left:5px;
-    filter:grayscale(1) invert(0.7);
-    transition:0.3s;
-}
-
-.social img:hover{
-    filter:grayscale(0) invert(0);
 }
 
 
-/* NAVIGATION */
+
 
 #navigation{
     border-bottom:2px solid #3a3a3a;
@@ -163,7 +145,6 @@ nav a{
     text-decoration:none;
     color:var(--text);
     font-weight:500;
-    transition:0.3s;
 }
 
 .active,
@@ -196,7 +177,6 @@ nav a:hover{
 
 
 /* SKILLS */
-
 .grid-container{
     display:grid;
     grid-template-columns:repeat(auto-fit,minmax(120px,1fr));
@@ -235,7 +215,6 @@ nav a:hover{
 }
 
 
-/* EDUCATION */
 
 #education{
     margin-top:30px;
@@ -275,7 +254,6 @@ nav a:hover{
     position:absolute;
     top:5px;
     left:0;
-    z-index:5;
 }
 
 .liner{
@@ -287,68 +265,6 @@ nav a:hover{
     border:2px solid #3a3a3a;
 }
 
-/* EXPERIENCE */
-#experience {
-    margin-top: 30px;
-}
-.experience-container {
-    display: grid;
-    gap: 16px;
-    margin-top: 18px;
-}
-.exp-card {
-    background: #1f1f1f;
-    border: 1px solid #3a3a3a;
-    border-radius: 12px;
-    padding: 16px;
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
-}
-.exp-card:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.35);
-}
-.exp-header {
-    display: flex;
-    flex-direction: column;
-    gap: 4px;
-    margin-bottom: 10px;
-}
-.exp-date {
-    color: #b4b4b4;
-    font-size: 0.8rem;
-    font-weight: 500;
-    letter-spacing: 0.02em;
-}
-.exp-header h3 {
-    margin: 0;
-    color: #fff;
-}
-.company {
-    margin: 0;
-    color: #ccc;
-    font-size: 0.9rem;
-    font-style: italic;
-}
-.exp-work {
-    color: #d6d6d6;
-    margin-bottom: 12px;
-    list-style: disc inside;
-    margin-left: 5px;
-}
-.exp-work li {
-    margin-bottom: 6px;
-}
-.tech {
-    color: #ffd27f;
-    background: rgba(255, 214, 127, 0.08);
-    border: 1px solid rgba(255, 214, 127, 0.2);
-    border-radius: 8px;
-    padding: 8px 10px;
-    font-size: 0.85rem;
-    max-width: fit-content;
-}
-
-/* PORTFOLIO */
 
 .project-container{
     margin-top:30px;
@@ -362,18 +278,15 @@ nav a:hover{
     border-radius:12px;
     border:1px solid #3a3a3a;
     overflow:hidden;
-    transition:0.4s;
 }
 
 .project:hover{
-    transform:translateY(-8px);
     box-shadow:0 10px 25px rgba(224,175,160,0.15);
 }
 
 .project img{
     height:180px;
     width:100%;
-    object-fit:cover;
 }
 
 .card{
@@ -406,7 +319,6 @@ nav a:hover{
     color:#e0afa0;
     font-size:14px;
     text-decoration:none;
-    transition:0.3s;
 }
 
 .project-links a:hover{
